@@ -3,7 +3,7 @@ import {
 } from 'svelte/store';
 import {
     browser
-} from '$app/env';
+} from '$app/environment';
 
 function detectTouchscreen() {
     if (!browser) return false;
