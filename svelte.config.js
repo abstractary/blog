@@ -1,6 +1,6 @@
 import { mdsvex } from "mdsvex";
 import { mdsvexConfig } from "./mdsvex.config.js";
-import adapter from '@sveltejs/adapter-vercel';
+import adapter from '@sveltejs/adapter-auto';
 import { sveltekit } from '@sveltejs/kit/vite';
 
 const dev = process.env.NODE_ENV === 'development';
